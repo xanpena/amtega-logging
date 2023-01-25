@@ -1,0 +1,29 @@
+{
+    "name": "xanpena/amtega-logging",
+    "description": "Useful class to customize log messages  in Laravel following Amtega (Xunta de Galicia) standards.",
+    "keywords": [
+        "amtega",
+        "laravel",
+        "logging",
+        "formatter"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xan Pena",
+            "email": "xanpena@outlook.es"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "monolog/monolog": "^2.0",
+        "illuminate/auth": "^6.0|^7.0|^8.0|^9.0",
+        "illuminate/log": "^6.0|^7.0|^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xanpena\\AmtegaLogging\\": "src"
+        }
+    }
+}
